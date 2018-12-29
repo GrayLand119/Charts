@@ -85,6 +85,7 @@
 		5BEAED401ABC1AC60013F194 /* SinusBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */; };
 		5BEAED411ABC1AC60013F194 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */; };
 		C37A6AD51FCFA9DA008561E6 /* GLCustomLineChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A6AD41FCFA9DA008561E6 /* GLCustomLineChartVC.m */; };
+		C37EEE501FE0F86800CDEE8C /* GLCustomFillLineChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C37EEE4F1FE0F86800CDEE8C /* GLCustomFillLineChartVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,6 +239,8 @@
 		5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
 		C37A6AD31FCFA9DA008561E6 /* GLCustomLineChartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLCustomLineChartVC.h; sourceTree = "<group>"; };
 		C37A6AD41FCFA9DA008561E6 /* GLCustomLineChartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCustomLineChartVC.m; sourceTree = "<group>"; };
+		C37EEE4E1FE0F86800CDEE8C /* GLCustomFillLineChartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLCustomFillLineChartVC.h; sourceTree = "<group>"; };
+		C37EEE4F1FE0F86800CDEE8C /* GLCustomFillLineChartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCustomFillLineChartVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -463,6 +466,8 @@
 			children = (
 				C37A6AD31FCFA9DA008561E6 /* GLCustomLineChartVC.h */,
 				C37A6AD41FCFA9DA008561E6 /* GLCustomLineChartVC.m */,
+				C37EEE4E1FE0F86800CDEE8C /* GLCustomFillLineChartVC.h */,
+				C37EEE4F1FE0F86800CDEE8C /* GLCustomFillLineChartVC.m */,
 			);
 			path = GLCostomLineChart;
 			sourceTree = "<group>";
@@ -633,6 +638,7 @@
 				5BDEDC411ABB7F73007D3A60 /* HorizontalBarChartViewController.m in Sources */,
 				5BEAED121ABBFB2B0013F194 /* AnotherBarChartViewController.m in Sources */,
 				5BEAED311ABC18F00013F194 /* CubicLineChartViewController.m in Sources */,
+				C37EEE501FE0F86800CDEE8C /* GLCustomFillLineChartVC.m in Sources */,
 				5BEAED1D1ABBFB340013F194 /* StackedBarChartViewController.m in Sources */,
 				5BD47E601ABB3C91008FCEC6 /* LineChart2ViewController.m in Sources */,
 				5B57BBB51A9B26AA0036A6CC /* main.m in Sources */,

@@ -154,6 +154,7 @@
         set1 = [[LineChartDataSet alloc] initWithValues:values label:@"DataSet 1"];
         
         set1.drawIconsEnabled = NO;
+        set1.iconsOffset = CGPointMake(0, -20);
         
         set1.lineDashLengths = @[@5.f, @2.5f];
         set1.highlightLineDashLengths = @[@5.f, @2.5f];
