@@ -33,11 +33,9 @@
 #import "LineChartTimeViewController.h"
 #import "LineChartFilledViewController.h"
 #import "HalfPieChartViewController.h"
-<<<<<<< HEAD:ChartsDemo/Classes/DemoListViewController.m
-#import "RealmDemosViewController.h"
-#import "GLCustomLineChartVC.h"
-=======
->>>>>>> danielgindi/master:ChartsDemo-iOS/Objective-C/DemoListViewController.m
+//#import "RealmDemosViewController.h"
+//#import "GLCustomLineChartVC.h"
+#import "GLVerticalChartViewController.h"
 
 @interface DemoListViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -56,7 +54,7 @@
     self.itemDefs = @[@{
                           @"title": @"GLCustom Line Chart",
                           @"subtitle": @"A simple demonstration of lines combine with full-line and dash-line",
-                          @"class": GLCustomLineChartVC.class
+                          @"class": GLVerticalChartViewController.class
                           },
                       @{
                           @"title": @"Line Chart",
